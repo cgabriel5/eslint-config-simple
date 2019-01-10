@@ -1,0 +1,48 @@
+{
+	"name": "eslint-config-simple",
+	"version": "0.0.1",
+	"description": "A shareable simple eslint config.",
+	"main": "./configs/eslint.config.js",
+	"bugs": {
+		"url": "https://github.com/cgabriel5/eslint-config-simple/issues"
+	},
+	"homepage": "https://github.com/cgabriel5/eslint-config-simple#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cgabriel5/eslint-config-simple.git"
+	},
+	"scripts": {
+		"pretty": "prettier-cli-watcher --configpath='/configs/prettier.config.json'",
+		"lint": "cross-env ESLINT_CFS_VERBOSE=true ./node_modules/eslint/bin/eslint.js -c='./configs/eslint.config.js' --ignore-path='configs/eslintignore' --format='simple' '**/*.{js,jsx}'"
+	},
+	"dependencies": {
+		"babel-eslint": "^10.0.1",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-prettier": "^3.3.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.2",
+		"eslint-plugin-prettier": "^3.0.0",
+		"eslint-plugin-react": "^7.11.1"
+	},
+	"author": "Carlos Gabriel",
+	"license": "MIT",
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"simple"
+	],
+	"engines": {
+		"node": ">=8.14.0",
+		"npm": ">=6.4.1"
+	},
+	"devDependencies": {
+		"cross-env": "^5.2.0",
+		"eslint": "^5.10.0",
+		"eslint-formatter-simple": "^0.0.2",
+		"prettier": "1.15.3",
+		"prettier-cli-watcher": "^0.3.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=5.10.0"
+	}
+}
