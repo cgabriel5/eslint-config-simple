@@ -4,7 +4,7 @@
 
 ### Overview
 
-A simple, shareable ESLint configuration meant to be used with [prettier](https://github.com/prettier/prettier). Look at the [config](/configs/eslint.config.js) file as it is pretty small.
+A simple, shareable ESLint configuration meant to be used with [prettier](https://github.com/prettier/prettier). View the [config](/configs/eslint.config.js) file, (it is pretty small), to see how ESLint is made to work with prettier.
 
 <a name="install"></a>
 
