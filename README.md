@@ -10,10 +10,12 @@ A simple, shareable ESLint configuration meant to be used with [prettier](https:
 
 ### Install
 
-First install `eslint-config-simple`:
-
 ```shell
-$ yarn install eslint-config-simple --dev
+# npm
+npm install eslint-config-simple --save-dev
+
+# yarn
+yarn add eslint-config-simple --dev
 ```
 
 Then add to the `extends` array in your eslint config file:
