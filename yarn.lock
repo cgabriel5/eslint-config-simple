@@ -661,10 +661,10 @@ eslint-config-prettier@^3.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-formatter-simple@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-formatter-simple/-/eslint-formatter-simple-0.0.2.tgz#a75b35dd85f303269e5db43feecfd4c9cb5ffcfa"
-  integrity sha512-uDl69rQn67YpQbTWQw+G9Cf+k9llCwCad33a0aadstwKOdkguylq4WHXbj9ALveurPWKTUoaOKIyQiUTjvtNYQ==
+eslint-formatter-simple@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-simple/-/eslint-formatter-simple-0.0.3.tgz#4fdac76b29e5606fddab4cf7295287d6d216e736"
+  integrity sha512-wNlmLx4UWulnE9rqbzOrAuWKNwe2is23bfU3Wn/Xp06sjk/XSSIzV3RFuEd87K3SEyJdoiDBbrEHuqN85QraDA==
   dependencies:
     archy "^1.0.0"
     chalk "^2.4.1"
@@ -2002,10 +2002,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier-cli-watcher@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/prettier-cli-watcher/-/prettier-cli-watcher-0.3.0.tgz#b6af1fed7318633170b0a754c4bedb96eb152df1"
-  integrity sha512-Y8wpzHyPrxOuwlsvIU5vQkkvGop4h3i1ya1ZCaVLXpcK5VAKYOIYcFNmiOBesjx+PluaCNawwwFNYQ3bxS39tA==
+prettier-cli-watcher@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/prettier-cli-watcher/-/prettier-cli-watcher-0.3.1.tgz#e73c4487ce6e18b7c674b23ac16c25a9f947c6c4"
+  integrity sha512-lhDIDsyBfqqLcao6yTFHiELj2DM4BnISw8tQpTezbUYiUHa6lTBtpgtaOPDAF/1ato0XkJQ08Js4LLoMLvtlyA==
   dependencies:
     chalk "^2.4.1"
     chokidar "^2.0.4"
