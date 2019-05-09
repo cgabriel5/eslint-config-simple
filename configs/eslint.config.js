@@ -48,7 +48,7 @@ module.exports = {
 				tabWidth: 4,
 				trailingComma: "none",
 				useTabs: true,
-				parser: "babylon"
+				parser: "babel"
 			}
 		],
 		// [https://eslint.org/docs/user-guide/configuring#configuring-rules]
