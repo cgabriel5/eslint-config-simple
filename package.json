@@ -16,13 +16,13 @@
 		"lint": "cross-env ESLINT_CFS_VERBOSE=true ./node_modules/eslint/bin/eslint.js -c='./configs/eslint.config.js' --ignore-path='configs/eslintignore' --format='simple' '**/*.{js,jsx}'; exit 0"
 	},
 	"dependencies": {
-		"babel-eslint": "^10.0.3",
-		"eslint-config-airbnb": "^18.0.1",
-		"eslint-config-prettier": "^6.5.0",
-		"eslint-plugin-import": "^2.18.2",
+		"babel-eslint": "^10.1.0",
+		"eslint-config-airbnb": "^18.1.0",
+		"eslint-config-prettier": "^6.10.1",
+		"eslint-plugin-import": "^2.20.2",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
-		"eslint-plugin-prettier": "^3.1.1",
-		"eslint-plugin-react": "^7.16.0"
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.19.0"
 	},
 	"author": "Carlos Gabriel",
 	"license": "MIT",
@@ -36,10 +36,10 @@
 		"npm": ">=6.4.1"
 	},
 	"devDependencies": {
-		"cross-env": "^6.0.3",
-		"eslint": "^6.6.0",
+		"cross-env": "^7.0.2",
+		"eslint": "^6.8.0",
 		"eslint-formatter-simple": "*",
-		"prettier": "^1.19.1",
+		"prettier": "^2.0.4",
 		"prettier-cli-watcher": "*"
 	}
 }
