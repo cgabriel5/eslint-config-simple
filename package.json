@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-simple",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"description": "A shareable simple eslint config.",
 	"main": "./configs/eslint.config.js",
 	"bugs": {
