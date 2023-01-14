@@ -38,8 +38,8 @@
 	"devDependencies": {
 		"cross-env": "^7.0.3",
 		"eslint": "7.32.0",
-		"eslint-formatter-simple": "0.0.12",
+		"eslint-formatter-simple": "0.0.13",
 		"prettier": "^2.8.3",
-		"prettier-cli-watcher": "*"
+		"prettier-cli-watcher": "1.0.6"
 	}
 }
